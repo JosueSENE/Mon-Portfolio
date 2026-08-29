@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josue Guilaye SENE | Portfolio Professionnel</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-badge">JGS</span>
+                <span class="logo-name">Josue Guilaye SENE</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html" class="nav-item active"><i class="fas fa-home"></i> Accueil</a>
+                <a href="about.html" class="nav-item"><i class="fas fa-user"></i> À propos</a>
+                <a href="projects.html" class="nav-item"><i class="fas fa-project-diagram"></i> Projets</a>
+                <a href="skills.html" class="nav-item"><i class="fas fa-tools"></i> Compétences</a>
+                <a href="contact.html" class="nav-item"><i class="fas fa-envelope"></i> Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-body">
+        
+<section class="hero-section">
+    <div class="hero-container">
+        <div class="hero-text">
+            <div class="badge-status"><span class="pulse"></span> En recherche d'opportunités & stages</div>
+            <h1>Bonjour, je suis <span class="highlight">Josue Guilaye SENE</span></h1>
+            <h2>Étudiant en Licence 3 Informatique</h2>
+            <p class="hero-bio">
+                Étudiant en informatique avec une formation polyvalente couvrant le développement logiciel, les technologies web, les réseaux, 
+                les systèmes Linux, l’analyse de données et l’intelligence artificielle. Curieux et orienté vers la résolution de problèmes, 
+                je m’intéresse à la conception de solutions fiables, efficaces et adaptées aux besoins réels. Je souhaite également approfondir 
+                mes compétences en cybersécurité et dans les technologies émergentes.
+            </p>
+            <div class="hero-actions">
+                <a href="projects.html" class="btn btn-primary"><i class="fas fa-folder-open"></i> Découvrir mes projets</a>
+                <a href="contact.html" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Me contacter</a>
+            </div>
+            <div class="contact-quick">
+                <span><i class="fas fa-map-marker-alt"></i> Diamniadio & Dakar, Sénégal</span>
+                <span><i class="fas fa-envelope"></i> <a href="mailto:josueguilay@gmail.com">josueguilay@gmail.com</a></span>
+            </div>
+        </div>
+        <div class="hero-image-wrapper">
+            <div class="profile-card">
+                <img src="static/images/joe.jpeg" alt="Josue Guilaye SENE" class="profile-img">
+                <div class="profile-tag">
+                    <i class="fas fa-graduation-cap"></i> UAM Dakar — L3 Informatique
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="overview-section container">
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-number">8+</div>
+            <div class="stat-label">Projets Réalisés</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">6+</div>
+            <div class="stat-label">Langages Maîtrisés</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">L3</div>
+            <div class="stat-label">Niveau d'Études (MPI/Info)</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">Mention</div>
+            <div class="stat-label">Bien & Assez Bien</div>
+        </div>
+    </div>
+</section>
+
+<section class="featured-projects container">
+    <div class="section-header">
+        <h2><i class="fas fa-star"></i> Projets Récents</h2>
+        <a href="projects.html" class="see-all">Voir tous les projets <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="projects-grid">
+        <div class="project-card">
+            <div class="project-icon"><i class="fas fa-eye"></i></div>
+            <div class="project-content">
+                <span class="project-tech">C++ • OpenCV • IoT</span>
+                <h3>Surveillance Intelligente IoT</h3>
+                <p>Système de sécurité embarqué intégrant la détection de mouvements et la reconnaissance faciale en temps réel.</p>
+                <a href="projects.html" class="project-link">Détails du projet <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+            <div class="project-content">
+                <span class="project-tech">Python • Scikit-learn • Flask</span>
+                <h3>UAM-Étudiant</h3>
+                <p>Modèle de prédiction des résultats des étudiants avec LinearSVC et tableau de bord prédictif dynamique.</p>
+                <a href="projects.html" class="project-link">Détails du projet <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-icon"><i class="fas fa-vote-yea"></i></div>
+            <div class="project-content">
+                <span class="project-tech">Java • JavaFX • MVC • MySQL</span>
+                <h3>Application UAM-e-vote</h3>
+                <p>Application de gestion des élections universitaires avec architecture MVC et BD MySQL hébergée sur réseau local.</p>
+                <a href="projects.html" class="project-link">Détails du projet <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>Josue Guilaye SENE</h3>
+                <p>Étudiant L3 Informatique — Université Amadou Mahtar Mbow (UAM), Dakar</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/JosueSENE" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/josueguilaye-sene5" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:josueguilay@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Josue Guilaye SENE. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('menuToggle');
+        const nav = document.getElementById('navLinks');
+        if(toggle && nav) {
+            toggle.addEventListener('click', () => {
+                nav.classList.toggle('open');
+            });
+        }
+    </script>
+</body>
+</html>

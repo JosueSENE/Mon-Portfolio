@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets | Josue Guilaye SENE</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-badge">JGS</span>
+                <span class="logo-name">Josue Guilaye SENE</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html" class="nav-item"><i class="fas fa-home"></i> Accueil</a>
+                <a href="about.html" class="nav-item"><i class="fas fa-user"></i> À propos</a>
+                <a href="projects.html" class="nav-item active"><i class="fas fa-project-diagram"></i> Projets</a>
+                <a href="skills.html" class="nav-item"><i class="fas fa-tools"></i> Compétences</a>
+                <a href="contact.html" class="nav-item"><i class="fas fa-envelope"></i> Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-body">
+        
+<section class="section container">
+    <h2 class="section-title"><i class="fas fa-tasks"></i> Projets Réalisés</h2>
+    <p class="section-subtitle">Découvrez l'ensemble des projets académiques et techniques que j'ai conçus et développés.</p>
+
+    <div class="projects-list-grid">
+        <div class="project-detailed-card">
+            <div class="card-header">
+                <span class="category-badge">IoT & IA</span>
+                <i class="fas fa-video card-icon"></i>
+            </div>
+            <h3>Surveillance Intelligente IoT</h3>
+            <p>Conception d'un système de sécurité embarqué en C++, intégrant la détection de mouvements, la reconnaissance faciale en temps réel avec OpenCV et une éventuel alerte.</p>
+            <div class="tech-tags">
+                <span>C++</span>
+                <span>Carte ESP32</span>
+                <span>OpenCV</span>
+                <span>IoT</span>
+                <span>Détection faciale</span>
+            </div>
+        </div>
+
+        <div class="project-detailed-card">
+            <div class="card-header">
+                <span class="category-badge">Développement Web</span>
+                <i class="fas fa-globe card-icon"></i>
+            </div>
+            <h3>Site Vitrine de l'UFR STA</h3>
+            <p>Développement d'une plateforme web dynamique pour valoriser les activités de l'UFR STA avec HTML, CSS, JS, Flask et une base de données MySQL.</p>
+            <div class="tech-tags">
+                <span>Flask</span>
+                <span>HTML/CSS</span>
+                <span>JavaScript</span>
+                <span>MySQL</span>
+            </div>
+        </div>
+
+        <div class="project-detailed-card">
+            <div class="card-header">
+                <span class="category-badge">Génie Logiciel</span>
+                <i class="fas fa-vote-yea card-icon"></i>
+            </div>
+            <h3>Application UAM-e-vote</h3>
+            <p>Création d'une application de gestion des élections de l'UAM en Java avec JavaFX, architecture MVC et base MySQL hébergée sur réseau local.</p>
+            <div class="tech-tags">
+                <span>Java21</span>
+                <span>JavaFX</span>
+                <span>MVC</span>
+                <span>MySQL</span>
+            </div>
+        </div>
+
+        <div class="project-detailed-card">
+            <div class="card-header">
+                <span class="category-badge">Data Science & IA</span>
+                <i class="fas fa-brain card-icon"></i>
+            </div>
+            <h3>UAM-Étudiant (IA & Dashboard)</h3>
+            <p>Analyse des facteurs influençant la réussite des étudiants et mise en place d’un modèle de prédiction permettant d’identifier les étudiants susceptibles de rencontrer des difficultés (Scikit-learn, LinearSVC), avec un tableau de bord prédictif interactif en Flask..</p>
+            <div class="tech-tags">
+                <span>Python</span>
+                <span>Scikit-learn</span>
+                <span>LinearSVC</span>
+                <span>Flask</span>
+            </div>
+        </div>
+
+        <div class="project-detailed-card">
+            <div class="card-header">
+                <span class="category-badge">Optimisation & Math</span>
+                <i class="fas fa-calculator card-icon"></i>
+            </div>
+            <h3>Programmation Liéaire</h3>
+            <p>Résolution d'un problème d'optimisation mobilière avec le solveur Excel, ainsi qu'en Python avec les bibliothèques spécialisées PuLP et SciPy.</p>
+            <div class="tech-tags">
+                <span>Python</span>
+                <span>PuLP</span>
+                <span>SciPy</span>
+                <span>Excel Solver</span>
+            </div>
+        </div>
+
+        <div class="project-detailed-card">
+            <div class="card-header">
+                <span class="category-badge">Réseaux</span>
+                <i class="fas fa-network-wired card-icon"></i>
+            </div>
+            <h3>Modélisation Réseau d'Entreprise</h3>
+            <p>Conception et modélisation du réseau d'une entreprise sous GNS3 avec segmentation VLAN, configuration de routeurs et routage statique.</p>
+            <div class="tech-tags">
+                <span>GNS3</span>
+                <span>VLAN</span>
+                <span>Routage Statique</span>
+                <span>Cisco</span>
+            </div>
+        </div>
+
+        <div class="project-detailed-card">
+            <div class="card-header">
+                <span class="category-badge">Systèmes & Virtualisation</span>
+                <i class="fab fa-linux card-icon"></i>
+            </div>
+            <h3>UAM-lab</h3>
+            <p>Mise en place d'un réseau interne de laboratoire sous VirtualBox comprenant deux serveurs Linux configurés et un poste client.</p>
+            <div class="tech-tags">
+                <span>Linux</span>
+                <span>VirtualBox</span>
+                <span>Serveurs Network</span>
+                <span>SysAdmin</span>
+            </div>
+        </div>
+
+        <div class="project-detailed-card">
+            <div class="card-header">
+                <span class="category-badge">Web Application</span>
+                <i class="fas fa-school card-icon"></i>
+            </div>
+            <h3>Sunu-école</h3>
+            <p>Conception d'un site web complet de gestion administrative et de suivi des élèves pour une école primaire (HTML, CSS, JS, Flask, MySQL).</p>
+            <div class="tech-tags">
+                <span>Flask</span>
+                <span>HTML5/CSS3</span>
+                <span>JavaScript</span>
+                <span>MySQL</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>Josue Guilaye SENE</h3>
+                <p>Étudiant L3 Informatique — Université Amadou Mahtar Mbow (UAM), Dakar</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/JosueSENE" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/josueguilaye-sene5" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:josueguilay@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Josue Guilaye SENE. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('menuToggle');
+        const nav = document.getElementById('navLinks');
+        if(toggle && nav) {
+            toggle.addEventListener('click', () => {
+                nav.classList.toggle('open');
+            });
+        }
+    </script>
+</body>
+</html>
