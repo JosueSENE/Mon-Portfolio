@@ -700,6 +700,22 @@ img {
     font-size: 0.9rem;
 }
 
+.cert-meta {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin: 0.25rem 0 0;
+}
+
+.cert-meta a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cert-meta a:hover {
+    text-decoration: underline;
+}
+
 /* Contact Page */
 .contact-wrapper {
     display: grid;
